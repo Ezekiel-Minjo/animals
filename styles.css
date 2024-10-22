@@ -1,0 +1,134 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #677d6a;
+}
+
+header {
+  background: #1a3636;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid;
+  display: block;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background: #d6bd98;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+  font-size: 20px;
+}
+
+p {
+  text-align: justify;
+  font-family: cursive;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #1a3636;
+  color: #ffffff;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-color: #d6bd98;
+}
+
+table,
+th,
+td {
+  border: 1px solid #1a3636;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a3636;
+  color: white;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+form {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background-color: #677d6a;
+}
+.hding {
+  text-align: center;
+}
+.FullWidth {
+  grid-column: span 2;
+}
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem;
+  font: 1.25rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #1a3636;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6bd98;
+}

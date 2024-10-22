@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lion.html">African Lion</a></li>
+          <li><a href="rhino.html">Rhino</a></li>
+          <li><a href="antelope.html">Antelope</a></li>
+          <li><a href="tiger.html">Tiger</a></li>
+        </ul>
+      </nav>
+      <img src="logo.jpg " alt="logo" />
+    </header>
+    <main>
+      <div><h1 class="hding">Contact Information</h1></div>
+      <form action="">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="Course">Favourite Animal:</label>
+          <select name="" id="Animal">
+            <option value="...">...</option>
+            <option value="lion">Lion</option>
+            <option value="rhino">Rhino</option>
+            <option value="antelope">antelope</option>
+            <option value="tiger">tiger</option>
+          </select>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Are you Farmiliar with Animals</legend>
+            <br />
+            <input type="radio" name="" id="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" name="" id="No" />
+            <label for="no">No</label>
+          </fieldset>
+        </div>
+
+        <div class="FullWidth">
+          <label for="Message">Message</label>
+          <textarea name="Message" id="Message"></textarea>
+        </div>
+        <div class="FullWidth">
+          <input type="checkbox" id="newsletter" />
+          <label for="newsletter">Do you want to receive our newsletter</label>
+        </div>
+        <div>
+          <button type="submit">Register</button>
+          <button type="reset">Clear</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2024 Animals</p>
+    </footer>
+  </body>
+</html>
